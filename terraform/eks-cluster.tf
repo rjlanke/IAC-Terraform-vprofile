@@ -14,7 +14,7 @@ module "eks" {
 
   }
 
-  eks_managed_node_groups = {
+  eks_managed_node_groups = {     // Basically this is a Auto-scaling group.
     one = {
       name = "node-group-1"
 
